@@ -1,0 +1,25 @@
+.btn {
+  background-color: #9333ea;
+  padding: 10px 20px;
+  margin: 10px;
+  color: #ffffff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #7e22ce;
+}
+
+.btn-icon::before {
+  content: "\f25a"; /* Unicode character of the icon in the font */
+  margin-right: 5px;
+  font-family: FontAwesome; /* Name of the icon font */
+}
+
+.action-btn {
+  font-size: 1rem;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}

@@ -1,0 +1,62 @@
+.badges--div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.badge--div {
+  position: relative;
+  display: inline-block;
+}
+
+.badge--div img {
+  border-radius: 50%;
+}
+
+.badge--div .online {
+  background-color: greenyellow;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.offline {
+  background-color: gray;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.notification {
+  background-color: red;
+  color: white;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dnd {
+  background-color: red;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}

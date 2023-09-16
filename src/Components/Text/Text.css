@@ -1,0 +1,31 @@
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.transparent {
+  opacity: 0.5;
+}
+
+.shadow-text {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.small-caps {
+  font-variant: small-caps;
+}
